@@ -1,4 +1,4 @@
-(function($) {
+$(function() {
     "use strict"; 
   
     // Smooth scrolling using jQuery easing
