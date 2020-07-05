@@ -49,6 +49,9 @@
 *::after {
   box-sizing: border-box;
 }
+.slick-dots li.slick-active button:before {
+  color:var(--primaryColor) !important;
+}
 
 html {
   font-family: sans-serif;

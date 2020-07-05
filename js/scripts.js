@@ -14,6 +14,15 @@ $(function() {
         }
       }
     });
+
+    //Skills carousel
+    $('.autoplay').slick({
+      dots: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
   
     // Scroll to top button appear
     $(document).scroll(function() {
