@@ -18,10 +18,19 @@ $(function() {
     //Skills carousel
     $('.autoplay').slick({
       dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+    });
+
+    $('.autoplay-devops').slick({
+      infinite: true,
       slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1000,
     });
   
     // Scroll to top button appear
