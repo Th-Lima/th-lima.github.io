@@ -22,7 +22,7 @@ $(function() {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 800,
     });
 
     $('.autoplay-devops').slick({
@@ -30,7 +30,7 @@ $(function() {
       slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 800,
     });
   
     // Scroll to top button appear

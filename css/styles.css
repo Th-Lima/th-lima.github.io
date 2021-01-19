@@ -129,7 +129,6 @@ ol ul,
 ul ol {
   margin-bottom: 0;
 }
-
  .page-section {
   padding: 6rem 0;
 }
@@ -142,6 +141,9 @@ ul ol {
     font-size: 3rem;
     line-height: 2.5rem;
   }
+}
+.most-languages{
+  overflow: hidden;
 }
 
 .carrousel{
