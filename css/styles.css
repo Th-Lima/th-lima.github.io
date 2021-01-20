@@ -39,6 +39,9 @@
 #sendMessageButton{
   background-color: var(--primaryColor);
 }
+#experience{
+  height: 400px;
+}
 
 #experienceH1{
   color: var(--dark);
